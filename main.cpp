@@ -2,11 +2,10 @@
 #include<cmath>
 using namespace std;
 
-string customer,item1,item2,item3, ans ;
+string customer,item1,item2,item3, ans,a,b,c ;
 int unique_id,cost1=0,cost2=0,cost3=0,qty1=0,qty2=0,qty3=0,want;
 int printer=1000,table=55,phone=500,total_cost;
 float balance,payable,customer_money,owe;
-string a="printer",b="phone" ,c="table";
 const float vat=0.12;
 int main()
 {
